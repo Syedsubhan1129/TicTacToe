@@ -41,7 +41,7 @@ body{
     background-color: aliceblue;
 }
 @media (max-width: 480px) {
-  #game {
+  #main {
     width: 96vw;  /* fills more space on small screens */
   }
 }
