@@ -40,6 +40,11 @@ body{
     aspect-ratio: 1;
     background-color: aliceblue;
 }
+@media (max-width: 480px) {
+  #game {
+    width: 96vw;  /* fills more space on small screens */
+  }
+}
 #newGame{
     display: none;
     margin-top: 4vh;
